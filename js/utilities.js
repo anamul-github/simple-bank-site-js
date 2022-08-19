@@ -6,6 +6,8 @@ function getInputValueById(inputId) {
     return inputValue;
 }
 
+
+
 function getTextElementById(elementId) {
     const textElement = document.getElementById(elementId);
     const textElementString = textElement.innerText;
