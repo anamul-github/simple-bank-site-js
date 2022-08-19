@@ -14,10 +14,10 @@ document.getElementById('btn-submit').addEventListener('click', function () {
 
     // DANGER: DO NOT VERIFY email password on the client side
     // step 4. verify email & password and check whether valid user or not 
-    if (email === 'sontan@baap.com' && password === 'secret') {
+    if (email === 'son@daddy.com' && password === 'secret') {
         window.location.href = 'bank.html';
     }
     else {
-        alert('Toke ami tejjo sontan ghoshona korlam!!! Password keno vulsos?');
+        alert('Please enter your email and password correctly!');
     }
 })
